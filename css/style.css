@@ -437,7 +437,7 @@ a:hover {
 
 .logo {
   padding: 15px 0;
-  width: 100px;
+  width: 120px;
 }
 
 /* ----------------------------------------------------------------
@@ -509,6 +509,11 @@ a:hover {
 .header .caption .butn {
   -webkit-animation-delay: 1.2s;
           animation-delay: 1.2s;
+}
+
+.header .down-arrow {
+  font-size: 50px;
+  margin-top: 10%;
 }
 
 .slider .owl-item, .slider-fade .owl-item {
@@ -1312,12 +1317,18 @@ a:hover {
 .contact .contact-info .item .cont p {
   font-size: 13px;
 }
-.contact .form input, .contact .form textarea {
+.contact .form input, .contact .form textarea, .contact .form select {
   width: 100%;
   padding: 10px;
   border: 0;
   background-color: #f9f9f9;
 }
+.contact .form select {
+  height: 40px;
+  max-height: 40px;
+  max-width: 100%;
+}
+
 .contact .form textarea {
   height: 160px;
   max-height: 160px;
